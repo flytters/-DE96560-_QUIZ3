@@ -10,3 +10,6 @@
 start		MOVLW	0xFE
 			MOVLB	5
 			MOVWF	0x23,BANKED
+			MOVWF	0x24,BANKED
+
+			END
